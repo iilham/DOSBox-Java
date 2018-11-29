@@ -35,7 +35,7 @@ class CmdMkFile extends Command {
 		this.getDrive().getCurrentDirectory().add(newFile);
             }
 		
-	}//test       
+	}      
         private boolean checkExists (String filename){
                 ArrayList<FileSystemItem> fileExists = this.getDrive().getCurrentDirectory().getContent();
                 boolean status = false;
